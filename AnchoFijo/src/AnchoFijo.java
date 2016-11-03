@@ -101,7 +101,7 @@ public class AnchoFijo {
 			}
 			System.out.println("Fin");
 		}
-	}
+	} 
 	
 	private boolean esValida(String line) {
 		boolean res=true;
