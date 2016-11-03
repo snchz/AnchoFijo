@@ -25,12 +25,12 @@ public class AnchoFijo {
 			System.out.println("Introduce el ancho del fichero:");
 			ancho=System.console().readLine();
 		}else{
-			_fichero=args[0]; //"f_HZ_50007326_Autorizacion_HIST.dat"
+			_fichero=args[0]; //"Autorizacion"
 			ancho=args[1]; //943
 		}
-		//String fichero="f_HZ_50007326_Autorizacion_HIST.dat";
+		//String fichero="Autorizacion";
 		//String ancho="943";
-		//String fichero="f_HZ_50007326_Incidencias_PCAS_HIST.dat";
+		//String fichero="Incidencias";
 		//String ancho="496";
 		af.recorrerFichero(Integer.valueOf(ancho));
 	}
